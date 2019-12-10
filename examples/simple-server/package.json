@@ -1,0 +1,24 @@
+{
+    "name": "simple-server",
+    "version": "1.0.0",
+    "description": "",
+    "bin": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "engines": {
+        "node": "12.13.1"
+    },
+    "pkg": {
+        "scripts": [
+            "server.js"
+        ],
+        "targets": [
+            "node12"
+        ]
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
